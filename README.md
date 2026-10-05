@@ -25,6 +25,32 @@ The project uses SQLite and includes the following main tables:
 - Categories
 - Payments
 - 
+## Tech Stack
+
+- **Database:** SQLite
+- **Query Language:** SQL
+- **Programming Language:** Python
+- **Database Tool:** DB Browser for SQLite
+- **Version Control:** Git & GitHub
+- 
+## Project Highlights
+
+- Designed a relational e-commerce database using SQLite.
+- Created and managed 6 interconnected tables with primary and foreign keys.
+- Built reusable SQL views for sales and delivered-order analysis.
+- Added indexes to improve query performance.
+- Performed revenue, profit, margin, customer, product, and category analysis.
+- Applied advanced SQL techniques including:
+  - Window Functions
+  - CTEs
+  - RFM Analysis
+  - Cohort Analysis
+  - Pareto Analysis
+  - Market Basket Analysis
+  - Customer Churn Analysis
+  - Moving Averages
+  - Running Totals
+- Analyzed customer retention, repeat purchases, discounts, returns, and payment behavior.
 ## Database Schema
 
 The database is designed around the following core entities:
