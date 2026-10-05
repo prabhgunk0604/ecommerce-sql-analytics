@@ -24,7 +24,32 @@ The project uses SQLite and includes the following main tables:
 - Order Items
 - Categories
 - Payments
+- 
+## Database Schema
 
+The database is designed around the following core entities:
+
+- **Customers** — customer information
+- **Products** — product details and pricing
+- **Categories** — product categories
+- **Orders** — customer orders
+- **Order Items** — products included in each order
+- **Payments** — payment information
+
+### Relationships
+
+```text
+Customers
+    │
+    └── Orders
+           │
+           └── Order Items ─── Products
+                                  │
+                                  └── Categories
+
+Orders
+   │
+   └── Payments
 ## SQL Analysis
 
 The project contains 25 SQL queries covering:
